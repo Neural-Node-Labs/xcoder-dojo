@@ -1,0 +1,76 @@
+/* P-04 run console. */
+
+.run-target-picker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.run-target-picker select {
+  padding: 2px 6px;
+  font-size: 11px;
+}
+
+.cmd-spec {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--bg-1);
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.cmd-spec code {
+  color: var(--accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.console-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.console-log {
+  flex: 1;
+  overflow: auto;
+  padding: 8px 10px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  line-height: 1.55;
+  background: var(--bg-0);
+  min-height: 60px;
+}
+
+.console-line {
+  display: flex;
+  gap: 9px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.console-stream {
+  flex: 0 0 5ch;
+  color: var(--fg-2);
+  font-size: 9.5px;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+.console-text {
+  flex: 1;
+}
+
+.console-stderr .console-text {
+  color: var(--bad);
+}
+
+.console-system .console-text {
+  color: var(--accent-2);
+}

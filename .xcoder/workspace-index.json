@@ -1,0 +1,972 @@
+{
+  "root": "C:\\Users\\sjnue\\Documents\\SJMN_WORKSPACE\\Neural-Node-Labs\\__xcoder__\\xcoder-dojo-ts",
+  "builtAt": "2026-11-16T10:20:37.739Z",
+  "entries": [
+    {
+      "relPath": "package.json",
+      "sizeBytes": 512,
+      "mtimeMs": 1794823489008.657,
+      "sha1": "710d52dc7252dd20093a57e9db991b3667435df5",
+      "language": "json"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/build-and-run.ps1",
+      "sizeBytes": 2371,
+      "mtimeMs": 1794585969719.491,
+      "sha1": "5f82510e4038849bfc0b5ae81000bcc46c9062a2",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/build-installer.ps1",
+      "sizeBytes": 1880,
+      "mtimeMs": 1794578827100.1792,
+      "sha1": "562e102dd781b76634d49671d33f0ba684ad964d",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/build-windows.ps1",
+      "sizeBytes": 5355,
+      "mtimeMs": 1794585428793.2727,
+      "sha1": "0db2a9d6aa81569879af69350664e9e890396bc6",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/check-release.py",
+      "sizeBytes": 1331,
+      "mtimeMs": 1794585970032.8374,
+      "sha1": "cad0d0d3e984cd818f4f23e27c8360a3def38feb",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/prepare-voice-model.py",
+      "sizeBytes": 2785,
+      "mtimeMs": 1794585227479.859,
+      "sha1": "8f345ab5a153c54e5bbf72021bd9346a3006ec7a",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/version.py",
+      "sizeBytes": 2064,
+      "mtimeMs": 1794578345147.4287,
+      "sha1": "3e57188e75cacb5be2e10e17c24d0af6e7caf3e6",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/bin/windows-installer.iss",
+      "sizeBytes": 1541,
+      "mtimeMs": 1794578827100.1792,
+      "sha1": "342902fe673f6044d55f477e3490b040d97ff631",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/assistant.py",
+      "sizeBytes": 24060,
+      "mtimeMs": 1794662178533.8474,
+      "sha1": "57fe49854fae3a93232daa4fbcca05efa1a2629b",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/butler_bridge.py",
+      "sizeBytes": 6409,
+      "mtimeMs": 1794717656788.085,
+      "sha1": "7762b3aaced9440a9d8e8ba38df9cecc9bf141ed",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/cli.py",
+      "sizeBytes": 2451,
+      "mtimeMs": 1794662178447.5078,
+      "sha1": "2f3cd00314c74148e5570b2cfdb0074f0c874921",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/llm.py",
+      "sizeBytes": 5897,
+      "mtimeMs": 1794717655699.18,
+      "sha1": "d03ebdb38752dd9061839a10b958ea95c5cce7d4",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/models.py",
+      "sizeBytes": 9106,
+      "mtimeMs": 1794662178496.427,
+      "sha1": "a59b1b0c4f92cb46e8fed9e1b174ef352b85ee98",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/runtime.py",
+      "sizeBytes": 17382,
+      "mtimeMs": 1794751181335.5684,
+      "sha1": "5f45dfb64fed014acf4290826d634882d4bce148",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/store.py",
+      "sizeBytes": 15662,
+      "mtimeMs": 1794662178522.4954,
+      "sha1": "d5cbc2b2a4531aa3ac35876df92fbd4949760367",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/tools.py",
+      "sizeBytes": 25539,
+      "mtimeMs": 1794662178511.4182,
+      "sha1": "b531f760d60b3a3b63ce82287c9f3d15794ce561",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/worker.py",
+      "sizeBytes": 10038,
+      "mtimeMs": 1794662178455.6755,
+      "sha1": "7609d34f7e82fb29c827962539057875d5ec5c59",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/butler/__init__.py",
+      "sizeBytes": 100,
+      "mtimeMs": 1794662178474.7822,
+      "sha1": "13b55f3121cb0efc3b55fc0db1699f6f9c3b5152",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/CHANGELOG.md",
+      "sizeBytes": 1596,
+      "mtimeMs": 1794586056789.246,
+      "sha1": "3a9f176b37de8130ec4c1842378164488ba9976b",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/handoff-reference/hud-theme.md",
+      "sizeBytes": 19802,
+      "mtimeMs": 1794577961134.8833,
+      "sha1": "69a4fd590b788673127684914de0557b1bc67745",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/handoff-reference/installer.md",
+      "sizeBytes": 7171,
+      "mtimeMs": 1794577961134.8833,
+      "sha1": "71d64a5f9269202cce1eb9eb0ed10ffd453cc303",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/handoff-reference/voice-handoff.md",
+      "sizeBytes": 45623,
+      "mtimeMs": 1794577961144.9937,
+      "sha1": "f1ca79c72ff6206fa88cea34a7951013c0b8e4db",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/HANDOFF.md",
+      "sizeBytes": 5462,
+      "mtimeMs": 1794454676913.127,
+      "sha1": "31fb9d135988e4c8423c97a3e31e8a12b176f4f9",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/README.md",
+      "sizeBytes": 14814,
+      "mtimeMs": 1794751181894.3577,
+      "sha1": "7d2a7f2aa6b6de190298f291555704cb2a7d28e8",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/script-audit.md",
+      "sizeBytes": 3573,
+      "mtimeMs": 1794586218555.77,
+      "sha1": "66780ff476062af9a171afd7e915ae330c7eb668",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/docs/voice-hud-handoff.md",
+      "sizeBytes": 9201,
+      "mtimeMs": 1794586218556.7808,
+      "sha1": "cddef8446180d24af3104facc23ef4d35ce30da6",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/dojo-blueprint.md",
+      "sizeBytes": 28996,
+      "mtimeMs": 1794634580076.1565,
+      "sha1": "0dba02ffbc992fa0ba324a94f02f434aa9b2aa62",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/requirements.txt",
+      "sizeBytes": 50,
+      "mtimeMs": 1794577850968.2554,
+      "sha1": "adff30b178495f3b6c9b862a9b00d47639496dc3",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_butler_integration.py",
+      "sizeBytes": 3211,
+      "mtimeMs": 1794751125717.8135,
+      "sha1": "b0598faa8588fabf5e1d5fbc9f489a9a4bc26a2c",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_script_paths.py",
+      "sizeBytes": 2905,
+      "mtimeMs": 1794585991788.3506,
+      "sha1": "1ec477a8a9096f85789afffefedbf331d75993b4",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_speech_worker.py",
+      "sizeBytes": 1903,
+      "mtimeMs": 1794580019431.7148,
+      "sha1": "c33dd1f85aca02c95f774736d59a23214da84186",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_version.py",
+      "sizeBytes": 991,
+      "mtimeMs": 1794580019433.0105,
+      "sha1": "22f3218aaabda917cecee1cd35907d8b9a3fb86f",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_voice_settings.py",
+      "sizeBytes": 2166,
+      "mtimeMs": 1794586129693.5437,
+      "sha1": "28e9c79303596f83f8f25b8f820feee6adc36bef",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_voice_submission.py",
+      "sizeBytes": 2083,
+      "mtimeMs": 1794580019434.2056,
+      "sha1": "0f9db1e9eac23fc5a128b51c1f738e5adbd3e120",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/tests/test_voice_workers.py",
+      "sizeBytes": 1370,
+      "mtimeMs": 1794585836622.913,
+      "sha1": "5fb2d3de3fa3df740c7a3c1ef0326a47206bda74",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/agent_tools.py",
+      "sizeBytes": 813,
+      "mtimeMs": 1794454676938.6548,
+      "sha1": "acd422b086bc551b2cb30a74ccf329876aeb0408",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/api_request.py",
+      "sizeBytes": 4512,
+      "mtimeMs": 1794454676946.4072,
+      "sha1": "d6162b5a3479885c3e3aec591522c5453322c2ed",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/assistant.py",
+      "sizeBytes": 16717,
+      "mtimeMs": 1794549063911.9788,
+      "sha1": "50fdb764cf891f48ad5eebf5d6b3d520da74c1df",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/assistant_storage.py",
+      "sizeBytes": 2361,
+      "mtimeMs": 1794454676974.3865,
+      "sha1": "9be991ccadd96daee400145f1e0db448b0adf8df",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/butler_chat.py",
+      "sizeBytes": 3943,
+      "mtimeMs": 1794751035995.2185,
+      "sha1": "496f352315a2e67b3136d6cabcca19a8302f3adc",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/butler_worker.py",
+      "sizeBytes": 1487,
+      "mtimeMs": 1794751036476.4922,
+      "sha1": "bfec9ea88fa660ce7975b7e821cffc54961bb353",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/curl_import.py",
+      "sizeBytes": 7310,
+      "mtimeMs": 1794454676985.472,
+      "sha1": "b8d7027731010442044813a4a0afc4ffb50eda08",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/data_paths.py",
+      "sizeBytes": 1092,
+      "mtimeMs": 1794549097202.8645,
+      "sha1": "5fee74abf96ac0aa877defdb2c550eea04e82f9d",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/editor.py",
+      "sizeBytes": 19339,
+      "mtimeMs": 1794454676995.5679,
+      "sha1": "b5dd431d32773984829e9e184a8e446dff41868a",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/hub.py",
+      "sizeBytes": 15100,
+      "mtimeMs": 1794577961144.9937,
+      "sha1": "53b0df06b71867fe0db73d064215e6cef2ff5a1b",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/hud_controls.py",
+      "sizeBytes": 7524,
+      "mtimeMs": 1794577961144.9937,
+      "sha1": "6fc86fcc2ca4d7f0271c0fb56c9a45c36c9e464f",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/hud_presets.py",
+      "sizeBytes": 7578,
+      "mtimeMs": 1794577961144.9937,
+      "sha1": "83ea1183f720f46637237afce64f53ab8cf66a49",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/jarvis.py",
+      "sizeBytes": 39418,
+      "mtimeMs": 1794751061501.395,
+      "sha1": "a56b6941b40bb306ef9b438a06312f5eef279293",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/main.py",
+      "sizeBytes": 55229,
+      "mtimeMs": 1794751061508.736,
+      "sha1": "ad3855f9132a296bf9064f50904ba77d41b4f963",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/markdown_preview.py",
+      "sizeBytes": 2469,
+      "mtimeMs": 1794454677033.1975,
+      "sha1": "61eb773a9f2ecd3dd0af7bde86f58415b395e033",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/preferences.py",
+      "sizeBytes": 15171,
+      "mtimeMs": 1794578088224.6753,
+      "sha1": "a5dd96129eeceddb973c7af081baf425a6185ae5",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/runners.py",
+      "sizeBytes": 21049,
+      "mtimeMs": 1794751061504.3933,
+      "sha1": "dd579a672fab79e53aeba2624deebbe16af66b40",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/sdlc_tool.py",
+      "sizeBytes": 15241,
+      "mtimeMs": 1794454677055.4238,
+      "sha1": "3f371f83248cd3fce4831dafc0c1ace5aa3af178",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/speech_worker.py",
+      "sizeBytes": 1668,
+      "mtimeMs": 1794585760157.7827,
+      "sha1": "d90a62e8a43849697db5eb26b337ee165b0166d7",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/theme.py",
+      "sizeBytes": 15490,
+      "mtimeMs": 1794577961150.6821,
+      "sha1": "882d50c8ea9721581abf00e18eae91fd9f471eec",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/tool_commands.py",
+      "sizeBytes": 6981,
+      "mtimeMs": 1794454677080.5708,
+      "sha1": "41a138587290b36d08290ba0ba8465104c6cd05b",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/tool_panels.py",
+      "sizeBytes": 17143,
+      "mtimeMs": 1794549063911.9788,
+      "sha1": "ba07ab57349b32aa2c870e7e1d57fa4e90c9fc9d",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/tts_worker.py",
+      "sizeBytes": 2861,
+      "mtimeMs": 1794585760159.7793,
+      "sha1": "f403681dc6db46f3143c3d90aee33956b7d7ad58",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/VERSION",
+      "sizeBytes": 7,
+      "mtimeMs": 1794810013565.6484,
+      "sha1": "1d0cc05c9fce4c4913b8443b1db1f92c5272b999",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/voice.py",
+      "sizeBytes": 10029,
+      "mtimeMs": 1794585760161.2664,
+      "sha1": "c51b086abf91d2b962537b7c84aa6ac5de69ef03",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/voice_input.py",
+      "sizeBytes": 3363,
+      "mtimeMs": 1794583515356.6587,
+      "sha1": "f8e0b97c3a65652ee978889a9bea3d20b57b3287",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/voice_options.py",
+      "sizeBytes": 1379,
+      "mtimeMs": 1794577740988.9287,
+      "sha1": "83bbbf67ed3bebb918e58580403903d4bf1305a7",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/voice_settings.py",
+      "sizeBytes": 3637,
+      "mtimeMs": 1794583515356.6587,
+      "sha1": "828398ecd7873106420990508ac6b0b3a037fa8d",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/workspace-background.png",
+      "sizeBytes": 274434,
+      "mtimeMs": 1794454677124.304,
+      "sha1": "e03b9063f078003c55c39ba550bb1856151052d1",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/workspace_tools.py",
+      "sizeBytes": 10482,
+      "mtimeMs": 1794583515356.6587,
+      "sha1": "06ac003e2dd8530143248037aeb5b8518c8f5382",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/__init__.py",
+      "sizeBytes": 152,
+      "mtimeMs": 1794578344834.1133,
+      "sha1": "8ead10a4e5e2cfde564c47c5ea93e7af36e1a613",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-ai-dojo/xcoder_ai_dojo/__main__.py",
+      "sizeBytes": 100,
+      "mtimeMs": 1794454677159.3806,
+      "sha1": "04dddaa802dfb7a14e110ce976e488e03af17e26",
+      "language": "python"
+    },
+    {
+      "relPath": "xcoder-dojo/CHANGELOG.md",
+      "sizeBytes": 6036,
+      "mtimeMs": 1794824432449.7693,
+      "sha1": "8c88ab473ea8f773c68062035e38d8888b3f8ae5",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-dojo/index.html",
+      "sizeBytes": 670,
+      "mtimeMs": 1794821635027.6663,
+      "sha1": "bcf4f7fee9efea69d8d3fde7794aa49485c40a16",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/package-lock.json",
+      "sizeBytes": 74730,
+      "mtimeMs": 1794823580128.407,
+      "sha1": "ea772f0ace303b3335852ebeaef2163a17ea2cea",
+      "language": "json"
+    },
+    {
+      "relPath": "xcoder-dojo/package.json",
+      "sizeBytes": 1037,
+      "mtimeMs": 1794823580095.6106,
+      "sha1": "1566466fad9076a9a016419f9f016d58bb8e30c8",
+      "language": "json"
+    },
+    {
+      "relPath": "xcoder-dojo/README.md",
+      "sizeBytes": 4008,
+      "mtimeMs": 1794822186041.9663,
+      "sha1": "261ba0f9c860383b5e9f3ee7824e7dde704f87dd",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/agent-engine.ts",
+      "sizeBytes": 6113,
+      "mtimeMs": 1794821391902.5708,
+      "sha1": "b74313264bea5627889d439be8c30bfada191aba",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/audit.ts",
+      "sizeBytes": 2557,
+      "mtimeMs": 1794821349237.755,
+      "sha1": "2d5921844c4ad27eec5f1b4122c4a26180fbce5d",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/demo-bridge.ts",
+      "sizeBytes": 32308,
+      "mtimeMs": 1794824174190.2847,
+      "sha1": "6847f02207c7366655ab639a54e4a6cc60d0fa61",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/markdown.ts",
+      "sizeBytes": 6637,
+      "mtimeMs": 1794823533659.4004,
+      "sha1": "b60e471dab17579bd7e026f0db31f6e9c133d07e",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/sandbox.ts",
+      "sizeBytes": 3177,
+      "mtimeMs": 1794821324231.003,
+      "sha1": "b7df2a6e21599f0ef55dd95c2f8eae0e40b2aad9",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/store.ts",
+      "sizeBytes": 3552,
+      "mtimeMs": 1794821354391.1106,
+      "sha1": "0626aa168d3fee74a21964d0d2803a9f7377554f",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/tools.ts",
+      "sizeBytes": 8994,
+      "mtimeMs": 1794823527945.4592,
+      "sha1": "183a983cf48435070b330e1e9a0883723fdfdec4",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/vfs.ts",
+      "sizeBytes": 5821,
+      "mtimeMs": 1794821315326.906,
+      "sha1": "337c3120df63a66016ca4cb975d98f924f560596",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/agent-engine.test.ts",
+      "sizeBytes": 6698,
+      "mtimeMs": 1794823417851.5398,
+      "sha1": "9b6effb8de7f02f5b5ecf8508731da8d8de460ea",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/approval-timer.test.ts",
+      "sizeBytes": 4269,
+      "mtimeMs": 1794824238593.3018,
+      "sha1": "db930284ca93d4220f1220f6bb62aba48035c588",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/audit.test.ts",
+      "sizeBytes": 4710,
+      "mtimeMs": 1794823408495.1155,
+      "sha1": "e58887d1a5fb2a866bb59b06854b4e31f3c297fe",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/demo-bridge.test.ts",
+      "sizeBytes": 16402,
+      "mtimeMs": 1794823588390.91,
+      "sha1": "fa6192d26800cda9181410bc23acd6f70738011f",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/markdown.test.ts",
+      "sizeBytes": 6504,
+      "mtimeMs": 1794823385959.2576,
+      "sha1": "ff9b2c6450e748d20a7767f6d76c3c687bd70faf",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/sandbox.test.ts",
+      "sizeBytes": 5475,
+      "mtimeMs": 1794823538481.006,
+      "sha1": "019e2f6477e49a05d00d2e761e16330f50393bef",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/tools.test.ts",
+      "sizeBytes": 6282,
+      "mtimeMs": 1794823394968.9722,
+      "sha1": "9aacd52c31db0aa35475c2e33bf1d08b25dd1ddc",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/backend/__tests__/vfs.test.ts",
+      "sizeBytes": 4675,
+      "mtimeMs": 1794823365789.618,
+      "sha1": "0a00150568bd1d6666bb6a4799e53ec304e98677",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/action.ts",
+      "sizeBytes": 1168,
+      "mtimeMs": 1794821258383.384,
+      "sha1": "c48573ac9f10eb84c4af7a538ed789a4f578cead",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/bridge.ts",
+      "sizeBytes": 4704,
+      "mtimeMs": 1794821295052.1812,
+      "sha1": "3e73fe4b2f46d84689fd9fe7b1416e41b75b82c4",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/errors.ts",
+      "sizeBytes": 3362,
+      "mtimeMs": 1794821253681.8909,
+      "sha1": "45db473e02c6002a6324bd83de2805aacab1bb02",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/index.ts",
+      "sizeBytes": 342,
+      "mtimeMs": 1794821298611.7058,
+      "sha1": "b2f723b693d1de9d040375762be2f9b3eb7d7032",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/models-delegation.ts",
+      "sizeBytes": 1587,
+      "mtimeMs": 1794821277127.2441,
+      "sha1": "b1de541fcad85ee43b94857ac9cc101fb7b9ee56",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/models-execution.ts",
+      "sizeBytes": 4372,
+      "mtimeMs": 1794821274979.341,
+      "sha1": "b6bd02bcb80ec65626550e599e0a491f870384dd",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/models-settings.ts",
+      "sizeBytes": 3583,
+      "mtimeMs": 1794821284727.962,
+      "sha1": "9c4174ff8e96028edfd81f11d98e151c66bcd352",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/models-workspace.ts",
+      "sizeBytes": 4288,
+      "mtimeMs": 1794821263818.8064,
+      "sha1": "06c16dfd63f4e3e25aa8f83fbef040fd7db3c410",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/__tests__/contracts.test.ts",
+      "sizeBytes": 8318,
+      "mtimeMs": 1794823328296.399,
+      "sha1": "823e0943992876bafda60e21a072b0649a28c88b",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/contracts/__tests__/entry.test.ts",
+      "sizeBytes": 3509,
+      "mtimeMs": 1794823484097.3718,
+      "sha1": "94616ef4357c074e92bca5090241f428eb794f64",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/main.tsx",
+      "sizeBytes": 875,
+      "mtimeMs": 1794821632957.4856,
+      "sha1": "003850b9998f12b01b64f33ddac221e6fa7063ea",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/App.tsx",
+      "sizeBytes": 4156,
+      "mtimeMs": 1794821628680.268,
+      "sha1": "7ed0102f14b1fa7fe39965fd31ffee99dae60986",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/AppProvider.tsx",
+      "sizeBytes": 14040,
+      "mtimeMs": 1794821512031.3281,
+      "sha1": "0341ff73f913c593cc84e032a39655e66d7561a0",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/ErrorCenter.tsx",
+      "sizeBytes": 2106,
+      "mtimeMs": 1794821501267.7085,
+      "sha1": "9d08ae7993fbc9d2967d1afdfa9ac3277b90485d",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/Explorer.tsx",
+      "sizeBytes": 4291,
+      "mtimeMs": 1794821536404.2466,
+      "sha1": "166ea0521cfef7973e71bd86da5a58fa043c64b4",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/MarkdownView.tsx",
+      "sizeBytes": 3362,
+      "mtimeMs": 1794821517874.8652,
+      "sha1": "d8988c4e2270abe28d63117b5eb72caa70d7bc1f",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/StatusBar.tsx",
+      "sizeBytes": 2467,
+      "mtimeMs": 1794821492763.5342,
+      "sha1": "2cfa3222723f8f14750984feb867d58e509db368",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/SyntaxEditor.tsx",
+      "sizeBytes": 4043,
+      "mtimeMs": 1794821487364.3635,
+      "sha1": "1cd6265b20156395ef1721cb7c6f0418ce502ad8",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/components/ToolCard.tsx",
+      "sizeBytes": 2180,
+      "mtimeMs": 1794821587767.4856,
+      "sha1": "dc5c554db1f1fee00c7e49daa8fd17984a0396e0",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/AgentPanel.tsx",
+      "sizeBytes": 6542,
+      "mtimeMs": 1794821595598.522,
+      "sha1": "bf3813db9702816b32b26224ec92eca94af71288",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/ApprovalSheet.tsx",
+      "sizeBytes": 2527,
+      "mtimeMs": 1794821599202.906,
+      "sha1": "0ae67e27ffbec00c08283910e2d247aa60dcb297",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/AuditModal.tsx",
+      "sizeBytes": 5271,
+      "mtimeMs": 1794821624270.3645,
+      "sha1": "0d85a66a89c3c96918ded76f51cd03711ef2e0a3",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/DelegationPage.tsx",
+      "sizeBytes": 2213,
+      "mtimeMs": 1794821602562.9956,
+      "sha1": "bc26852ab1083f81998744faf0fc2707da22d3bc",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/EditorPage.tsx",
+      "sizeBytes": 3862,
+      "mtimeMs": 1794821554019.8342,
+      "sha1": "0746a3733e54701c3923ad41684c2248bf879614",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/HistoryModal.tsx",
+      "sizeBytes": 5026,
+      "mtimeMs": 1794821618647.1997,
+      "sha1": "9d629ce1f74bd1e2329fd521ce60de2771d5f5ac",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/RunConsolePage.tsx",
+      "sizeBytes": 4424,
+      "mtimeMs": 1794821563020.378,
+      "sha1": "0f530cb4d62d64a81c109da5c20b98f68527e270",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/SettingsModal.tsx",
+      "sizeBytes": 7479,
+      "mtimeMs": 1794821609342.4905,
+      "sha1": "3c196906eb6e64c7cb650e3421eadc6286928462",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/TranscriptView.tsx",
+      "sizeBytes": 2440,
+      "mtimeMs": 1794821589562.456,
+      "sha1": "7c28128e70a25ca3ecfd7b6836e98da851d8ea62",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/pages/WelcomePage.tsx",
+      "sizeBytes": 3029,
+      "mtimeMs": 1794821548286.849,
+      "sha1": "34ceff3153b4aad3e3ab16e156034f7693577d8d",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/store.tsx",
+      "sizeBytes": 3526,
+      "mtimeMs": 1794821514378.6624,
+      "sha1": "f736e5a290db9d945d9739a974ce65e820104e36",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/agent.css",
+      "sizeBytes": 3381,
+      "mtimeMs": 1794821750226.5298,
+      "sha1": "8feb90ec44090363f505f1da419a82035320bc1b",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/base.css",
+      "sizeBytes": 1697,
+      "mtimeMs": 1794821750281.8542,
+      "sha1": "57e8bc067904c5ff7c8c809054a4894f81cc2138",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/chrome.css",
+      "sizeBytes": 2596,
+      "mtimeMs": 1794821750284.7244,
+      "sha1": "7a9c1ea57a12e28421c96f97457384cb545f0121",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/console.css",
+      "sizeBytes": 1186,
+      "mtimeMs": 1794821750287.2146,
+      "sha1": "6b8e2daf83ee92915c9bb2a5b233aba0d17dd7e1",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/controls.css",
+      "sizeBytes": 3765,
+      "mtimeMs": 1794821750291.2144,
+      "sha1": "a2acb58f49f61b3b766d8286922f841f1c61a7b6",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/editor.css",
+      "sizeBytes": 2607,
+      "mtimeMs": 1794821750293.6982,
+      "sha1": "f019756a362703f6655e7c296bd98f1695bade0c",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/history.css",
+      "sizeBytes": 2644,
+      "mtimeMs": 1794821750295.7617,
+      "sha1": "013fdcb85bf8a0ebef9b7132f12a3cce5cbb15c1",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/modals.css",
+      "sizeBytes": 2152,
+      "mtimeMs": 1794821750298.5005,
+      "sha1": "d617ce763a7af274631fb3e7662136d32e80c3b2",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/pages.css",
+      "sizeBytes": 2758,
+      "mtimeMs": 1794821750298.5005,
+      "sha1": "e85e5cae25227cadadf03db966191dfd9a919ba4",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles/welcome.css",
+      "sizeBytes": 1798,
+      "mtimeMs": 1794821750302.5635,
+      "sha1": "df47bbb3b9aeb4f9ace5d24c55803763de4f6d97",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/styles.css",
+      "sizeBytes": 371,
+      "mtimeMs": 1794821750307.391,
+      "sha1": "bbb2128c3b3e20d35673a29bd1b9097e37324014",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/__tests__/main-entry.test.ts",
+      "sizeBytes": 2570,
+      "mtimeMs": 1794824216695.8625,
+      "sha1": "e9b02bb28b09cdf210be014ea5d98c9762fbe16c",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/src/ui/__tests__/render.test.ts",
+      "sizeBytes": 9409,
+      "mtimeMs": 1794823543432.662,
+      "sha1": "15bf214cb13e102ca812e014bd928ffae18c8d6c",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/test/smoke.mjs",
+      "sizeBytes": 64603,
+      "mtimeMs": 1794824381623.5393,
+      "sha1": "8eddb9b44d04dc94a6ea0a62cb3a045b7da7b94e",
+      "language": "text"
+    },
+    {
+      "relPath": "xcoder-dojo/test/smoke.ts",
+      "sizeBytes": 8173,
+      "mtimeMs": 1794821923329.3882,
+      "sha1": "9e6886ab36c3f0520a69150f675a285f6fec7e9e",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/tsconfig.json",
+      "sizeBytes": 564,
+      "mtimeMs": 1794823582047.8647,
+      "sha1": "a8cf4bc80b1cda3ed0f790c568f574c91f6cabbe",
+      "language": "json"
+    },
+    {
+      "relPath": "xcoder-dojo/vite.config.ts",
+      "sizeBytes": 369,
+      "mtimeMs": 1794821175955.1724,
+      "sha1": "757cf7a60949c6c9ecf1a7daff641e59bbd904dc",
+      "language": "typescript"
+    },
+    {
+      "relPath": "xcoder-dojo/vitest.config.ts",
+      "sizeBytes": 607,
+      "mtimeMs": 1794823181720.2622,
+      "sha1": "595cdc6872bc14093b8189b14d0ee2c803edb7da",
+      "language": "typescript"
+    },
+    {
+      "relPath": ".xcoder/blueprint.md",
+      "sizeBytes": 14157,
+      "mtimeMs": 1794824441954.0208,
+      "sha1": "f1a1537aaab5910602b45e3d8a0fc7ec408b74c7",
+      "language": "markdown"
+    },
+    {
+      "relPath": "xcoder-dojo/.tmp_repro.ts",
+      "sizeBytes": 207,
+      "mtimeMs": 1794824456293.7395,
+      "sha1": "40a376ea08e20243ab8a68d3cabe88b176e70292",
+      "language": "typescript"
+    }
+  ]
+}

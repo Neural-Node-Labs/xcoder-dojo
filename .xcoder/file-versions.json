@@ -1,0 +1,452 @@
+{
+  ".xcoder/backlog/requirements-st-b1522d.md": {
+    "version": 15,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "requirements-st-b1522d",
+    "lastUpdated": "2026-11-16T09:17:56.680Z"
+  },
+  ".xcoder/backlog/_probe.md": {
+    "version": 4,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "requirements-st-b1522d",
+    "lastUpdated": "2026-11-16T09:16:27.459Z"
+  },
+  ".xcoder/backlog/design-st-2c7624.md": {
+    "version": 17,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "design-st-2c7624",
+    "lastUpdated": "2026-11-16T09:24:04.983Z"
+  },
+  "xcoder-dojo/vite.config.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:26:15.954Z"
+  },
+  "xcoder-dojo/src/contracts/errors.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:27:33.678Z"
+  },
+  "xcoder-dojo/src/contracts/action.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:27:38.385Z"
+  },
+  "xcoder-dojo/src/contracts/models-workspace.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:27:43.816Z"
+  },
+  "xcoder-dojo/src/contracts/models-execution.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:27:54.975Z"
+  },
+  "xcoder-dojo/src/contracts/models-delegation.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:27:57.124Z"
+  },
+  "xcoder-dojo/src/contracts/models-settings.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:28:04.724Z"
+  },
+  "xcoder-dojo/src/contracts/bridge.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:28:15.049Z"
+  },
+  "xcoder-dojo/src/contracts/index.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:28:18.614Z"
+  },
+  "xcoder-dojo/src/backend/vfs.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:28:35.322Z"
+  },
+  "xcoder-dojo/src/backend/sandbox.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:28:44.230Z"
+  },
+  "xcoder-dojo/src/backend/markdown.ts": {
+    "version": 5,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:05:33.644Z"
+  },
+  "xcoder-dojo/src/backend/audit.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:29:09.232Z"
+  },
+  "xcoder-dojo/src/backend/store.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:29:14.386Z"
+  },
+  "xcoder-dojo/src/backend/tools.ts": {
+    "version": 5,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:05:27.929Z"
+  },
+  "xcoder-dojo/src/backend/agent-engine.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:29:51.898Z"
+  },
+  "xcoder-dojo/src/backend/demo-bridge.ts": {
+    "version": 7,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:16:14.187Z"
+  },
+  "xcoder-dojo/src/ui/store.tsx": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:54.371Z"
+  },
+  "xcoder-dojo/src/ui/AppProvider.tsx": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:52.025Z"
+  },
+  "xcoder-dojo/src/ui/components/MarkdownView.tsx": {
+    "version": 4,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:57.868Z"
+  },
+  "xcoder-dojo/src/ui/components/SyntaxEditor.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:27.362Z"
+  },
+  "xcoder-dojo/src/ui/components/StatusBar.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:32.753Z"
+  },
+  "xcoder-dojo/src/ui/components/ErrorCenter.tsx": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:31:41.266Z"
+  },
+  "xcoder-dojo/src/ui/components/Explorer.tsx": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:32:16.398Z"
+  },
+  "xcoder-dojo/src/ui/pages/WelcomePage.tsx": {
+    "version": 4,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:32:28.280Z"
+  },
+  "xcoder-dojo/src/ui/pages/EditorPage.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:32:34.015Z"
+  },
+  "xcoder-dojo/src/ui/pages/RunConsolePage.tsx": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:32:43.018Z"
+  },
+  "xcoder-dojo/src/ui/pages/AgentPanel.tsx": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:15.597Z"
+  },
+  "xcoder-dojo/src/ui/pages/TranscriptView.tsx": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:09.560Z"
+  },
+  "xcoder-dojo/src/ui/components/ToolCard.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:07.764Z"
+  },
+  "xcoder-dojo/src/ui/pages/ApprovalSheet.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:19.213Z"
+  },
+  "xcoder-dojo/src/ui/pages/DelegationPage.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:22.560Z"
+  },
+  "xcoder-dojo/src/ui/pages/SettingsModal.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:29.339Z"
+  },
+  "xcoder-dojo/src/ui/pages/HistoryModal.tsx": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:38.644Z"
+  },
+  "xcoder-dojo/src/ui/pages/AuditModal.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:44.264Z"
+  },
+  "xcoder-dojo/src/ui/App.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:48.671Z"
+  },
+  "xcoder-dojo/src/main.tsx": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:52.950Z"
+  },
+  "xcoder-dojo/index.html": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:33:55.022Z"
+  },
+  "xcoder-dojo/src/ui/styles.css": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:35:28.720Z"
+  },
+  "xcoder-dojo/src/ui/styles/base.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:09.267Z"
+  },
+  "xcoder-dojo/src/ui/styles/controls.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:19.359Z"
+  },
+  "xcoder-dojo/src/ui/styles/chrome.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:23.469Z"
+  },
+  "xcoder-dojo/src/ui/styles/pages.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:35.372Z"
+  },
+  "xcoder-dojo/src/ui/styles/editor.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:39.769Z"
+  },
+  "xcoder-dojo/src/ui/styles/console.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:34:49.738Z"
+  },
+  "xcoder-dojo/src/ui/styles/agent.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:35:04.958Z"
+  },
+  "xcoder-dojo/src/ui/styles/modals.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:35:18.579Z"
+  },
+  "xcoder-dojo/src/ui/styles/history.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:35:23.086Z"
+  },
+  "xcoder-dojo/src/ui/styles/welcome.css": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:35:26.258Z"
+  },
+  "xcoder-dojo/test/smoke.ts": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:38:43.330Z"
+  },
+  "xcoder-dojo/README.md": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "code-st-1de5aa",
+    "lastUpdated": "2026-11-16T09:43:06.044Z"
+  },
+  "xcoder-dojo/vitest.config.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T09:59:41.712Z"
+  },
+  "xcoder-dojo/src/contracts/__tests__/contracts.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:02:08.291Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/sandbox.test.ts": {
+    "version": 2,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:05:38.465Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/vfs.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:02:45.785Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/markdown.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:03:05.954Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/tools.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:03:14.965Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/audit.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:03:28.493Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/agent-engine.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:03:37.849Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/demo-bridge.test.ts": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:06:28.383Z"
+  },
+  "xcoder-dojo/src/ui/__tests__/render.test.ts": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:05:43.416Z"
+  },
+  "xcoder-dojo/src/main.tsx/__tests__/entry.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:04:37.434Z"
+  },
+  "xcoder-dojo/src/contracts/__tests__/entry.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:04:44.093Z"
+  },
+  ".xcoder/defects/defect0001.md": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:05:54.840Z"
+  },
+  ".xcoder/defects/defect0002.md": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:06:00.263Z"
+  },
+  "xcoder-dojo/src/backend/__tests__/approval-timer.test.ts": {
+    "version": 3,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:17:18.587Z"
+  },
+  "xcoder-dojo/src/main.tsx/entry.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:16:51.719Z"
+  },
+  "xcoder-dojo/src/ui/__tests__/main-entry.test.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:16:56.690Z"
+  },
+  ".xcoder/defects/defect0003.md": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "test-st-bf6f22",
+    "lastUpdated": "2026-11-16T10:18:09.895Z"
+  },
+  ".xcoder/blueprint.md": {
+    "version": 4,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "document-st-fbebd7",
+    "lastUpdated": "2026-11-16T10:20:41.952Z"
+  },
+  "xcoder-dojo/CHANGELOG.md": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "document-st-fbebd7",
+    "lastUpdated": "2026-11-16T10:20:32.447Z"
+  },
+  "xcoder-dojo/.tmp_repro.ts": {
+    "version": 1,
+    "lastTask": "task-f1d1f4",
+    "lastSubtask": "fix_defect-df-636577",
+    "lastUpdated": "2026-11-16T10:20:56.297Z"
+  }
+}

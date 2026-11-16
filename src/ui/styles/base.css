@@ -1,0 +1,119 @@
+/* Design tokens, resets, theme variants and shared primitives. */
+
+:root {
+  --bg-0: #0b0d12;
+  --bg-1: #11141c;
+  --bg-2: #171b26;
+  --bg-3: #1f2534;
+  --line: #2a3143;
+  --line-soft: #232a39;
+  --fg-0: #e7ecf5;
+  --fg-1: #a9b4c9;
+  --fg-2: #6f7c95;
+  --accent: #53d1b6;
+  --accent-2: #7aa7ff;
+  --ok: #3fbf7f;
+  --warn: #e5b567;
+  --bad: #ef6b73;
+  --busy: #6aa8ff;
+  --mono: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  --sans: 'Inter', 'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif;
+}
+
+.theme-dojo-light {
+  --bg-0: #f4f6fb;
+  --bg-1: #ffffff;
+  --bg-2: #eef1f8;
+  --bg-3: #e2e7f2;
+  --line: #c9d1e2;
+  --line-soft: #dde3ef;
+  --fg-0: #131722;
+  --fg-1: #47506a;
+  --fg-2: #78829c;
+  --accent: #12876f;
+  --accent-2: #3059c9;
+}
+
+.theme-dojo-hud {
+  --bg-0: #050810;
+  --bg-1: #080d18;
+  --bg-2: #0c1424;
+  --bg-3: #12203a;
+  --line: #1d3454;
+  --line-soft: #162742;
+  --fg-0: #d6f3ff;
+  --fg-1: #7fb4ce;
+  --fg-2: #4a7188;
+  --accent: #38e8ff;
+  --accent-2: #6d8cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-0);
+  color: var(--fg-0);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+code,
+pre {
+  font-family: var(--mono);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 8px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+.muted {
+  color: var(--fg-2);
+}
+
+.small {
+  font-size: 11px;
+}
+
+.ok {
+  color: var(--ok);
+}
+
+.warn {
+  color: var(--warn);
+}

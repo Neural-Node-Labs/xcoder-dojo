@@ -1,0 +1,142 @@
+/* Modals: P-07 approval, P-08 settings, P-09 history, P-10 audit. */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 6, 10, 0.62);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 24px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  max-height: 86vh;
+  width: min(880px, 92vw);
+  background: var(--bg-1);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-2);
+}
+
+.modal-head h2 {
+  margin: 0;
+  flex: 1;
+}
+
+.modal-tabs {
+  border-bottom: 1px solid var(--line);
+  padding: 6px 10px 0;
+  background: var(--bg-1);
+}
+
+.modal-tabs .tab {
+  border-radius: 6px 6px 0 0;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 10px 14px;
+  border-top: 1px solid var(--line);
+  background: var(--bg-2);
+}
+
+.modal-actions .btn-danger {
+  margin-right: auto;
+}
+
+.approval-sheet {
+  width: min(560px, 92vw);
+}
+
+.approval-kind {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px 0;
+}
+
+.approval-kind code {
+  font-size: 11px;
+  color: var(--warn);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.approval-kind strong {
+  font-size: 14px;
+}
+
+.approval-detail {
+  margin: 10px 14px;
+  padding-left: 18px;
+  font-size: 12px;
+  color: var(--fg-1);
+  line-height: 1.6;
+}
+
+.approval-sheet .muted {
+  padding: 0 14px;
+}
+
+.settings-modal {
+  width: min(680px, 92vw);
+}
+
+.settings-body {
+  padding: 14px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field > label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-1);
+}
+
+.field-value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.key-row {
+  display: flex;
+  gap: 6px;
+}
+
+.key-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.theme-row {
+  display: flex;
+  gap: 8px;
+}

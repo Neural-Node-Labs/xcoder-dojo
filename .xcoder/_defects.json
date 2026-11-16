@@ -1,0 +1,62 @@
+{
+  "DEFECT-0001": {
+    "id": "DEFECT-0001",
+    "path": ".xcoder/defects/defect0001.md",
+    "status": "resolved",
+    "discoveredAt": "2026-11-16T10:18:37.242Z",
+    "lastUpdated": "2026-11-16T10:21:47.382Z",
+    "severity": "high",
+    "fixAttempts": [
+      {
+        "attemptNumber": 1,
+        "fixNodeId": "fix_defect-df-a19c19",
+        "startedAt": "2026-11-16T10:18:37.246Z",
+        "passed": true,
+        "completedAt": "2026-11-16T10:21:47.382Z",
+        "notes": "Resolved by fix_defect-df-a19c19"
+      }
+    ],
+    "resolvedAt": "2026-11-16T10:21:47.382Z",
+    "resolvedBy": "fix_defect-df-a19c19"
+  },
+  "DEFECT-0002": {
+    "id": "DEFECT-0002",
+    "path": ".xcoder/defects/defect0002.md",
+    "status": "resolved",
+    "discoveredAt": "2026-11-16T10:18:37.248Z",
+    "lastUpdated": "2026-11-16T10:21:47.404Z",
+    "severity": "high",
+    "fixAttempts": [
+      {
+        "attemptNumber": 1,
+        "fixNodeId": "fix_defect-df-636577",
+        "startedAt": "2026-11-16T10:18:37.252Z",
+        "passed": true,
+        "completedAt": "2026-11-16T10:21:47.404Z",
+        "notes": "Resolved by fix_defect-df-636577"
+      }
+    ],
+    "resolvedAt": "2026-11-16T10:21:47.404Z",
+    "resolvedBy": "fix_defect-df-636577"
+  },
+  "DEFECT-0003": {
+    "id": "DEFECT-0003",
+    "path": ".xcoder/defects/defect0003.md",
+    "status": "resolved",
+    "discoveredAt": "2026-11-16T10:18:37.255Z",
+    "lastUpdated": "2026-11-16T10:21:47.393Z",
+    "severity": "high",
+    "fixAttempts": [
+      {
+        "attemptNumber": 1,
+        "fixNodeId": "fix_defect-df-18d764",
+        "startedAt": "2026-11-16T10:18:37.258Z",
+        "passed": true,
+        "completedAt": "2026-11-16T10:21:47.393Z",
+        "notes": "Resolved by fix_defect-df-18d764"
+      }
+    ],
+    "resolvedAt": "2026-11-16T10:21:47.393Z",
+    "resolvedBy": "fix_defect-df-18d764"
+  }
+}

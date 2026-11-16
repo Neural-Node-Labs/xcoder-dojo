@@ -1,0 +1,227 @@
+/* Buttons, chips, badges, banners and form controls. */
+
+.btn {
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  color: var(--fg-0);
+  padding: 5px 11px;
+  border-radius: 6px;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--bg-3);
+  border-color: var(--accent);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #04120f;
+  font-weight: 600;
+}
+
+.btn-primary:hover:not(:disabled) {
+  filter: brightness(1.08);
+  background: var(--accent);
+}
+
+.btn-danger {
+  border-color: var(--bad);
+  color: var(--bad);
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: rgba(239, 107, 115, 0.14);
+  border-color: var(--bad);
+}
+
+.btn-ghost {
+  background: transparent;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  color: var(--fg-1);
+  padding: 2px 6px;
+  border-radius: 5px;
+  line-height: 1;
+}
+
+.icon-btn:hover {
+  background: var(--bg-3);
+  color: var(--fg-0);
+}
+
+.link-btn {
+  border: none;
+  background: transparent;
+  color: var(--accent-2);
+  padding: 0;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  color: var(--fg-1);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.chip-btn {
+  cursor: pointer;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  font-size: 11px;
+}
+
+.chip-active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(83, 209, 182, 0.12);
+}
+
+.chip-ok {
+  border-color: var(--ok);
+  color: var(--ok);
+}
+
+.chip-bad {
+  border-color: var(--bad);
+  color: var(--bad);
+}
+
+.chip-warn {
+  border-color: var(--warn);
+  color: var(--warn);
+}
+
+.chip-busy {
+  border-color: var(--busy);
+  color: var(--busy);
+}
+
+.chip-dirty {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.chip-ai {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.chip-workspace {
+  border-color: var(--warn);
+  color: var(--warn);
+}
+
+.badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  color: var(--fg-1);
+  white-space: nowrap;
+}
+
+.badge-ok {
+  color: var(--ok);
+  border-color: rgba(63, 191, 127, 0.5);
+}
+
+.badge-bad {
+  color: var(--bad);
+  border-color: rgba(239, 107, 115, 0.5);
+}
+
+.badge-busy {
+  color: var(--busy);
+  border-color: rgba(106, 168, 255, 0.5);
+}
+
+.badge-idle {
+  color: var(--fg-2);
+}
+
+.banner {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-2);
+  font-size: 11.5px;
+  margin: 6px 0;
+}
+
+.banner-warn {
+  border-color: rgba(229, 181, 103, 0.55);
+  background: rgba(229, 181, 103, 0.1);
+  color: var(--warn);
+}
+
+.banner-info {
+  border-color: rgba(106, 168, 255, 0.5);
+  background: rgba(106, 168, 255, 0.1);
+  color: var(--busy);
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+select,
+textarea {
+  background: var(--bg-1);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 8px;
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--accent);
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 100%;
+  padding: 24px;
+  text-align: center;
+}
+
+.empty-state.inline {
+  height: auto;
+  padding: 14px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.empty-glyph {
+  font-family: var(--mono);
+  font-size: 26px;
+  color: var(--fg-2);
+}

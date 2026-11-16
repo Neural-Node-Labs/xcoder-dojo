@@ -1,0 +1,11 @@
+/* Xcoder Dojo - style entry. Imported in cascade order. */
+@import './styles/base.css';
+@import './styles/controls.css';
+@import './styles/chrome.css';
+@import './styles/pages.css';
+@import './styles/editor.css';
+@import './styles/console.css';
+@import './styles/agent.css';
+@import './styles/modals.css';
+@import './styles/history.css';
+@import './styles/welcome.css';

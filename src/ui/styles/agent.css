@@ -1,0 +1,223 @@
+/* P-05 agent panel and P-05a tool cards. */
+
+.agent-panel {
+  min-height: 0;
+}
+
+.jarvis-title {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+
+.turn-meter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.meter-track {
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--bg-3);
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--busy));
+  transition: width 200ms ease;
+}
+
+.transcript-toolbar {
+  display: flex;
+  gap: 5px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.transcript {
+  flex: 1;
+  overflow: auto;
+  padding: 8px 10px;
+  min-height: 0;
+}
+
+.entry {
+  margin-bottom: 12px;
+}
+
+.entry-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+
+.entry-role {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--fg-1);
+}
+
+.entry-user .entry-role {
+  color: var(--accent);
+}
+
+.entry-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 12.5px;
+  border-left: 2px solid var(--line);
+  padding-left: 9px;
+}
+
+.entry-user .entry-text {
+  border-left-color: var(--accent);
+}
+
+.entry-assistant .entry-text {
+  border-left-color: var(--accent-2);
+}
+
+.composer {
+  border-top: 1px solid var(--line);
+  padding: 8px 10px;
+  flex: 0 0 auto;
+}
+
+.composer-input {
+  width: 100%;
+  min-height: 54px;
+  max-height: 140px;
+  resize: vertical;
+}
+
+.composer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.delegation-launcher {
+  border-top: 1px solid var(--line-soft);
+  padding: 7px 10px;
+  flex: 0 0 auto;
+}
+
+.delegation-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.delegation-goal {
+  flex: 1;
+  min-width: 0;
+}
+
+.tool-cards {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tool-card {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-2);
+  overflow: hidden;
+}
+
+.tool-ok {
+  border-left: 3px solid var(--ok);
+}
+
+.tool-denied-allowlist,
+.tool-refused-sandbox,
+.tool-refused-credential,
+.tool-refused-excluded,
+.tool-denied-approval,
+.tool-error {
+  border-left: 3px solid var(--bad);
+}
+
+.tool-pending {
+  border-left: 3px solid var(--busy);
+}
+
+.tool-head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 5px 8px;
+  text-align: left;
+}
+
+.tool-name {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--fg-0);
+}
+
+.tool-caret {
+  margin-left: auto;
+  color: var(--fg-2);
+  font-size: 10px;
+}
+
+.tool-summary {
+  padding: 0 8px 6px;
+  font-size: 11px;
+  color: var(--fg-1);
+  font-family: var(--mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tool-body {
+  padding: 0 8px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tool-args code {
+  display: block;
+  font-size: 11px;
+  color: var(--fg-1);
+  word-break: break-all;
+}
+
+.tool-result p {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+}
+
+.delegation-panel {
+  min-height: 0;
+}
+
+.delegation-meta {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.delegation-meta p {
+  margin: 2px 0 0;
+  font-size: 12px;
+}

@@ -1,0 +1,58 @@
+[2026-11-16T09:18:11.186Z] [requirements-st-b1522d] score=55/100
+  +60 acceptance criteria: 3/3 passed
+  +0 took 49 iterations, 25 points off for exceeding the 8-iteration baseline
+  -20 17 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+[2026-11-16T09:24:31.516Z] [design-st-2c7624] score=55/100
+  +60 acceptance criteria: 2/2 passed
+  +0 took 55 iterations, 25 points off for exceeding the 8-iteration baseline
+  -20 5 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+[2026-11-16T09:45:36.539Z] [code-st-1de5aa] score=25/100
+  +30 acceptance criteria: 1/2 passed
+  +0 took 157 iterations, 25 points off for exceeding the 8-iteration baseline
+  -20 19 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+[2026-11-16T09:52:52.638Z] [code-st-1de5aa] score=66/100
+  +60 acceptance criteria: 2/2 passed
+  +0 took 23 iterations, 25 points off for exceeding the 8-iteration baseline
+  -4 1 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+  -5 this is healing attempt 1/2 — it took retries to get here
+[2026-11-16T09:55:04.993Z] [test-st-bf6f22] score=45/100
+  +20 acceptance criteria: 1/3 passed
+  +25 efficient: reached a result in 5 iteration(s) (≤8 baseline)
+  +0 no protocol/LLM errors
+  +0 self_check ran but did not pass (consistent with a failed validation, not double-penalized)
+[2026-11-16T10:11:13.932Z] [test-st-bf6f22] score=30/100
+  +40 acceptance criteria: 2/3 passed
+  +0 took 112 iterations, 25 points off for exceeding the 8-iteration baseline
+  -20 11 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+  -5 this is healing attempt 1/2 — it took retries to get here
+[2026-11-16T10:18:37.238Z] [test-st-bf6f22] score=61/100
+  +60 acceptance criteria: 3/3 passed
+  +0 took 49 iterations, 25 points off for exceeding the 8-iteration baseline
+  -4 1 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+  -10 this is healing attempt 2/2 — it took retries to get here
+[2026-11-16T10:21:47.380Z] [fix_defect-df-a19c19] score=92/100
+  +60 acceptance criteria: 1/1 passed
+  +21 took 10 iterations, 4 points off for exceeding the 8-iteration baseline
+  -4 1 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+[2026-11-16T10:21:47.391Z] [fix_defect-df-18d764] score=100/100
+  +60 acceptance criteria: 1/1 passed
+  +25 efficient: reached a result in 7 iteration(s) (≤8 baseline)
+  +0 no protocol/LLM errors
+  +15 self_check ran and passed
+[2026-11-16T10:21:47.399Z] [document-st-fbebd7] score=71/100
+  +60 acceptance criteria: 1/1 passed
+  +0 took 34 iterations, 25 points off for exceeding the 8-iteration baseline
+  -4 1 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
+[2026-11-16T10:21:47.403Z] [fix_defect-df-636577] score=55/100
+  +60 acceptance criteria: 1/1 passed
+  +0 took 44 iterations, 25 points off for exceeding the 8-iteration baseline
+  -20 11 protocol/LLM error(s) during the attempt
+  +15 self_check ran and passed
